@@ -26,6 +26,6 @@ describe('countdownTimer', () => {
     }
 
     // Verify clearInterval was called
-    clearInterval(timerId); // Ensure cleanup to avoid overlapping
+    clearInterval(timerId); //  cleanup to avoid overlapping
   });
 });
